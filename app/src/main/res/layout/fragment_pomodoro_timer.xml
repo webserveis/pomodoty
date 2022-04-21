@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.pomotimer.PomodoroFragment">
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        app:layout_constraintBottom_toTopOf="@+id/tv_time_remaining"
+        app:layout_constraintEnd_toEndOf="@+id/circularSeekBar"
+        app:layout_constraintStart_toStartOf="@+id/circularSeekBar"
+        tools:text="Stay Focus!" />
+
+    <TextView
+        android:id="@+id/tv_time_remaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/circularSeekBar"
+        app:layout_constraintEnd_toEndOf="@+id/circularSeekBar"
+        app:layout_constraintStart_toStartOf="@+id/circularSeekBar"
+        app:layout_constraintTop_toTopOf="@+id/circularSeekBar"
+        tools:text="25:00" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/pomodoro_count"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+        android:textColor="?android:attr/textColorSecondary"
+        app:layout_constraintEnd_toEndOf="@+id/circularSeekBar"
+        app:layout_constraintStart_toStartOf="@+id/circularSeekBar"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time_remaining" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_reset"
+        style="@style/Material.Button.Circular.OutlineButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/pomodoro_btn_reset"
+        android:enabled="false"
+        app:icon="@drawable/ic_round_stop_24"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_start"
+        app:layout_constraintEnd_toStartOf="@+id/btn_start"
+        app:layout_constraintTop_toTopOf="@+id/btn_start" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_next"
+        style="@style/Material.Button.Circular.OutlineButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/pomodoro_btn_next"
+        android:enabled="false"
+        app:icon="@drawable/ic_round_skip_next_24"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_start"
+        app:layout_constraintStart_toEndOf="@+id/btn_start"
+        app:layout_constraintTop_toTopOf="@+id/btn_start" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_start"
+        style="@style/Material.Button.Circular"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/pomodoro_btn_start"
+        app:icon="@drawable/ic_round_play_arrow_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+    <me.tankery.lib.circularseekbar.CircularSeekBar
+        android:id="@+id/circularSeekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:cs_circle_color="?attr/colorButtonNormal"
+        app:cs_circle_progress_color="@color/md_red_A200"
+        app:cs_circle_stroke_width="6dp"
+        app:cs_circle_style="round"
+        app:cs_negative_enabled="false"
+        app:cs_pointer_color="@color/md_red_A400"
+        app:cs_pointer_halo_color_ontouch="#A8ffcdd2"
+        app:cs_pointer_halo_width="16dp"
+        app:cs_pointer_stroke_width="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

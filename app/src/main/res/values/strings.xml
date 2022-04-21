@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pomodoty</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add">Add</string>
+    <string name="action_search">Search</string>
+
+    <!-- Welcome screen -->
+    <string name="welcome_title">Share Event Timezone</string>
+    <string name="welcome_summary">Share on RSS when your next live broadcast will be with time zone.</string>
+    <string name="welcome_btn_continue">Continue</string>
+
+    <!-- Navigation -->
+    <string name="nav_pomodoro">Timer</string>
+    <string name="nav_task_history">History</string>
+
+    <!-- Main Screen -->
+
+    <!-- nested list -->
+    <string name="nested_list_fragment_label">JS One-liners</string>
+
+    <!-- pomodoro timer -->
+    <string name="pomodoro_window_label">Pomodoty</string>
+
+    <string name="action_notify_sound">Notify sound</string>
+
+
+    <string name="pomodoro_current_task">Current task</string>
+    <string name="pomodoro_count">%d of %d sessions</string>
+    <string name="pomodoro_init_interval">Press start!</string>
+    <string name="pomodoro_stay_focus">Stay focus</string>
+    <string name="pomodoro_short_break">Short break</string>
+    <string name="pomodoro_long_break">Long break</string>
+
+    <string name="pomodoro_btn_start">Start</string>
+    <string name="pomodoro_btn_next">Next</string>
+    <string name="pomodoro_btn_reset">Stop</string>
+
+    <string name="pomodoro_running_title">Pomodoro is active</string>
+    <string name="pomodoro_running_summary">Before, need to end the timer, press stop and try again</string>
+
+
+    <!-- list videos screen -->
+    <string name="list_fragment_label">Pomodoty</string>
+    <string name="list_btn_add">Add</string>
+    <string name="list_error_no_data_available_title">No Videos</string>
+    <string name="list_error_no_data_available_summary">no videos to watch yet, press add button.</string>
+    <string name="list_error_no_data_available_btn">Add video</string>
+
+    <string name="list_search_hint">Search by name</string>
+    <string name="action_delete_all">Remove All</string>
+
+
+    <!-- video add screen -->
+    <string name="item_add_titled">Add Youtube video</string>
+    <string name="item_add_field">Youtube video</string>
+    <string name="item_add_field_hint">Enter youtube link/s</string>
+
+    <string name="item_add_field_helper">Add youtube links or any text include one</string>
+    <string name="item_add_field_error">No youtube link found</string>
+    <string name="item_add_btn">Add</string>
+
+
+    <!-- Preference screen-->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- General settings -->
+    <string name="pref_app_theme_key" translatable="false">pref_app_theme_key</string>
+
+    <string name="pref_general_header">General</string>
+
+    <string name="pref_interface_category">Appearance</string>
+
+    <string name="pref_interface_theme_title">Theme</string>
+    <string name="pref_interface_theme_dialog_title">Choose theme</string>
+    <string name="pref_interface_theme_light">Light</string>
+    <string name="pref_interface_theme_dark">Dark</string>
+    <string name="pref_interface_theme_default_system">Automatic</string>
+
+    <!-- Pomodoro settings -->
+    <string name="pref_pomodoro_focus_key" translatable="false">pref_pomodoro_focus_key</string>
+    <string name="pref_pomodoro_short_key" translatable="false">pref_pomodoro_short_key</string>
+    <string name="pref_pomodoro_long_key" translatable="false">pref_pomodoro_long_key</string>
+    <string name="pref_pomodoro_long_delay_key" translatable="false">pref_pomodoro_long_delay_key</string>
+    <string name="pref_pomodoro_auto_start_key" translatable="false">pref_pomodoro_auto_start_key</string>
+    <string name="pref_pomodoro_notify_vibrate_key" translatable="false">pref_pomodoro_notify_vibrate_key</string>
+    <string name="pref_pomodoro_notify_sound_key" translatable="false">pref_pomodoro_notify_sound_key</string>
+    <string name="pref_pomodoro_keep_screen_on_key" translatable="false">pref_pomodoro_keep_screen_on_key</string>
+
+
+    <string name="pref_pomodoro_times_category">Pomodoro timer</string>
+    <string name="pref_pomodoro_times_summary">The length of time in minutes</string>
+
+    <string name="pref_pomodoro_times_focus">Pomodoro length</string>
+    <string name="pref_pomodoro_times_short_break">Short break length</string>
+    <string name="pref_pomodoro_times_long_break">Long break length</string>
+
+    <string name="pref_pomodoro_times_long_break_delay">Long Break Delay</string>
+    <string name="pref_pomodoro_times_long_break_delay_summary">Number of pomodoros before long break</string>
+
+    <string name="pref_pomodoro_times_auto_start">Auto-start focus &amp; breaks</string>
+
+    <string name="pref_pomodoro_notification_category">Pomodoro notification</string>
+    <string name="pref_pomodoro_notification_ticking_sound">Ticking Sound</string>
+    <string name="pref_pomodoro_notification_interval_ended_play_sound">Play sound when session ends</string>
+    <string name="pref_pomodoro_notification_interval_ended_vibrate">Vibrate when session ends</string>
+
+    <string name="pref_pomodoro_others_category">Others</string>
+    <string name="pref_pomodoro_Keep_screen_on">Keep screen on</string>
+
+
+
+
+    <string name="title_activity_pomodoro_timer">PomodoroTimerActivity</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+
+
+</resources>

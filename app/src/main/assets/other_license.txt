@@ -1,0 +1,25 @@
+<h3>Android Architecture Components , AndroidX &amp; Kotlin</h3>
+<p>• Constraint Layout</p>
+<p>• AndroidX preferences</p>
+<p>• ViewModel LiveData Lifecycle</p>
+<p>• Navigation component</p>
+<p>• Kotlin core</p>
+<p>• Kotlin coroutines</p>
+<p>Google Licenses: https://developer.android.com/license</p>
+
+
+<h3>Google Android Support Library</h3>
+<tt>
+The Android Support Library package is a set of code libraries that provide backward-compatible versions of Android framework APIs as well as features that are only available through the library APIs.
+</tt>
+
+<h3>Material Components for Android</h3>
+<p>Material Components for Android (MDC-Android) help developers execute Material Design. Developed by a core team of engineers and UX designers at Google, these components enable a reliable development workflow to build beautiful and functional Android apps..</p>
+<p>https://github.com/material-components/material-components-android</p>
+<tt>
+Licensed under the Apache License, Version 2.0 - Copyright 2008 Google Inc.
+</tt>
+
+
+<h3>Assets</h3>
+<a href='https://www.freepik.es/vectores/nubes-noche'>Vector de nubes noche creado por upklyak - www.freepik.es</a>

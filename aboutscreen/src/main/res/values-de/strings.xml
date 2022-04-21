@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Info Preferences -->
+    <string name="pref_about_header">Über diese App</string>
+
+    <string name="action_app_info">App-Info-Bildschirm</string>
+
+    <string name="pref_about_version_title">App version</string>
+
+    <string name="pref_about_license_title">Lizenz &amp; Nutzungsbedingungen</string>
+    <string name="pref_about_license_summary">Lizenzdetails und Datenschutzbestimmungen</string>
+
+    <string name="pref_about_open_license_title">Open Source Lizenz</string>
+    <string name="pref_about_open_license_summary">Open Source-Lizenzen anzeigen</string>
+
+    <string name="pref_about_send_feedback_title">Feedback abschicken</string>
+    <string name="pref_about_send_feedback_summary">Hilf mir, die App besser zu machen</string>
+
+    <string name="pref_about_send_feedback_header">Feedback mit</string>
+    <string name="pref_about_send_feedback_error">Benötigen Sie eine E-Mail-App, um Feedback zu senden</string>
+
+    <string name="pref_about_others_apps_title">Andere Apps anzeigen</string>
+    <string name="pref_about_others_apps_summary">Entdecke alle meine Apps</string>
+
+    <string name="pref_about_rate_app_title">Bewerte diese App</string>
+    <string name="pref_about_rate_app_summary">Ihre Meinung ist uns wichtig!</string>
+
+    <string name="pref_about_dev_developer_label">Entwickler</string>
+
+    <string name="pref_about_dev_email_title">Kontakt per E-Mail</string>
+
+    <string name="pref_about_dev_twitter_summary">Folge mir auf Twitter</string>
+
+    <string name="pref_about_dev_google_play_title">Google-Play-Entwicklerseite</string>
+    <string name="pref_about_dev_google_play_summary">Entwicklerseite bei Google Play</string>
+
+    <string name="pref_about_dev_web_title">Entwickler-Webseite</string>
+    <string name="pref_about_dev_web_summary">Besuchen Sie meinen persönlichen Entwicklungsblog</string>
+
+    <string name="action_share">Teilen mit</string>
+    <string name="action_share_description">Hey, schau dir \"%s\" an %s</string>
+
+</resources>

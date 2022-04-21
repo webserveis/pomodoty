@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/pref_interface_category"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:defaultValue="MODE_DEFAULT_SYSTEM"
+            android:dialogTitle="@string/pref_interface_theme_dialog_title"
+            android:entries="@array/pref_theme_entries"
+            android:entryValues="@array/pref_theme_entries_values"
+            android:key="@string/pref_app_theme_key"
+            android:summary="%s"
+            android:title="@string/pref_interface_theme_title"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_pomodoro_times_category"
+        app:iconSpaceReserved="false">
+
+        <SeekBarPreference
+            android:key="@string/pref_pomodoro_focus_key"
+            android:max="60"
+            android:summary="@string/pref_pomodoro_times_summary"
+            android:title="@string/pref_pomodoro_times_category"
+            app:defaultValue="25"
+            app:iconSpaceReserved="false"
+            app:min="1"
+            app:showSeekBarValue="true" />
+
+        <SeekBarPreference
+            android:key="@string/pref_pomodoro_short_key"
+            android:max="60"
+            android:summary="@string/pref_pomodoro_times_summary"
+            android:title="@string/pref_pomodoro_times_short_break"
+            app:defaultValue="5"
+            app:iconSpaceReserved="false"
+            app:min="1"
+            app:showSeekBarValue="true" />
+
+        <SeekBarPreference
+            android:key="@string/pref_pomodoro_long_key"
+            android:max="60"
+            android:summary="@string/pref_pomodoro_times_summary"
+            android:title="@string/pref_pomodoro_times_long_break"
+            app:defaultValue="15"
+            app:iconSpaceReserved="false"
+            app:min="1"
+            app:showSeekBarValue="true" />
+
+        <SeekBarPreference
+            android:key="@string/pref_pomodoro_long_delay_key"
+            android:max="12"
+            android:summary="@string/pref_pomodoro_times_long_break_delay_summary"
+            android:title="@string/pref_pomodoro_times_long_break_delay"
+            app:defaultValue="4"
+            app:iconSpaceReserved="false"
+            app:min="1"
+            app:showSeekBarValue="true" />
+
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"
+            android:key="@string/pref_pomodoro_auto_start_key"
+            android:title="@string/pref_pomodoro_times_auto_start" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_pomodoro_notification_category"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"
+            android:key="@string/pref_pomodoro_notify_sound_key"
+            android:title="@string/pref_pomodoro_notification_interval_ended_play_sound" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:iconSpaceReserved="false"
+            android:key="@string/pref_pomodoro_notify_vibrate_key"
+            android:title="@string/pref_pomodoro_notification_interval_ended_vibrate" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_pomodoro_others_category"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            app:iconSpaceReserved="false"
+            android:key="@string/pref_pomodoro_keep_screen_on_key"
+            android:title="@string/pref_pomodoro_Keep_screen_on" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

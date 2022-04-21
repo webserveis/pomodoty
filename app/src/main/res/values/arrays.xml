@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_theme_entries">
+        <item>@string/pref_interface_theme_light</item>
+        <item>@string/pref_interface_theme_dark</item>
+        <item>@string/pref_interface_theme_default_system</item>
+    </string-array>
+    <string-array  translatable="false" name="pref_theme_entries_values">
+        <item>MODE_NIGHT_NO</item>
+        <item>MODE_NIGHT_YES</item>
+        <item>MODE_DEFAULT_SYSTEM</item>
+    </string-array>
+</resources>

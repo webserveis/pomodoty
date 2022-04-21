@@ -1,0 +1,5 @@
+rootProject.name = "Pomodoty"
+include ':app'
+include ':aboutscreen'
+include ':ratethisapp'
+rootProject.name = "Pomodoty"

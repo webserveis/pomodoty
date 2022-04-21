@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Info Preferences -->
+    <string name="pref_about_header">Sobre o app</string>
+
+    <string name="action_app_info">tela do aplicativo de informações</string>
+
+    <string name="pref_about_version_title">Versão</string>
+
+    <string name="pref_about_license_title">licença e termos de uso</string>
+    <string name="pref_about_license_summary">Licença e política de privacidade</string>
+
+    <string name="pref_about_open_license_title">Licenças de código aberto</string>
+    <string name="pref_about_open_license_summary">Ver licenças de código aberto</string>
+
+    <string name="pref_about_send_feedback_title">Enviar relatório</string>
+    <string name="pref_about_send_feedback_summary">Ajude-me a melhorar o aplicativo</string>
+
+    <string name="pref_about_send_feedback_header">Relatório com</string>
+    <string name="pref_about_send_feedback_error">É necessário um aplicativo de e-mail para enviar relatórios</string>
+
+    <string name="pref_about_others_apps_title">Veja outros aplicativos</string>
+    <string name="pref_about_others_apps_summary">Descubra todos os meus aplicativos</string>
+
+    <string name="pref_about_rate_app_title">Avalie este aplicativo</string>
+    <string name="pref_about_rate_app_summary">Sua opinião é importante para nós!</string><!-- Rate and comment in the play store-->
+
+    <string name="pref_about_dev_developer_label">Desenvolvedor</string>
+
+    <string name="pref_about_dev_email_title">Contato por email</string>
+
+    <string name="pref_about_dev_twitter_summary">Siga-me no Twitter</string>
+
+    <string name="pref_about_dev_google_play_title">Página da web do Gplay</string>
+    <string name="pref_about_dev_google_play_summary">Página do desenvolvedor no Google Play</string>
+
+    <string name="pref_about_dev_web_title">Site do desenvolvedor</string>
+    <string name="pref_about_dev_web_summary">Visite meu blog de desenvolvimento pessoal</string>
+
+    <string name="action_share">Compartilhar com</string>
+    <string name="action_share_description">Ei, cheque \"%s\" %s</string>
+
+</resources>

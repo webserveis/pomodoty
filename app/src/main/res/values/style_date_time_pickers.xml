@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="CalendarDatePickerDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:datePickerStyle">@style/CalendarDatePicker</item>
+        <item name="android:background">?attr/colorBackgroundFloating</item>
+        <item name="android:dialogCornerRadius" tools:targetApi="28">@dimen/round_corners</item>
+    </style>
+
+    <style name="CalendarDatePicker" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:calendarViewShown">false</item>
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+
+    <!-- Date picker spinner style -->
+    <style name="SpinnerDatePickerDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:datePickerStyle">@style/SpinnerDatePicker</item>
+        <item name="android:background">?attr/colorBackgroundFloating</item>
+        <item name="android:dialogCornerRadius" tools:targetApi="28">@dimen/round_corners</item>
+    </style>
+
+    <style name="SpinnerDatePicker" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:calendarViewShown">false</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+
+
+    <!-- Time Picker clock style -->
+    <style name="ClockTimePickerDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:timePickerStyle">@style/ClockTimePicker</item>
+        <item name="android:dialogCornerRadius" tools:targetApi="28">@dimen/round_corners</item>
+    </style>
+
+    <style name="ClockTimePicker" parent="android:Widget.Material.Light.TimePicker">
+        <item name="android:timePickerMode">clock</item>
+        <item name="android:headerBackground">#FF5722</item>
+        <item name="android:numbersTextColor">#673AB7</item>
+        <item name="android:numbersSelectorColor">#FFEB3B</item>
+        <item name="android:numbersBackgroundColor">#61E761</item>
+        <item name="android:background">#FFC107</item>
+    </style>
+
+    <!-- Time Picker spinner style -->
+    <style name="SpinnerTimePickerDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:timePickerStyle">@style/SpinnerTimePicker</item>
+        <item name="android:background">?attr/colorBackgroundFloating</item>
+        <item name="android:dialogCornerRadius" tools:targetApi="28">@dimen/round_corners</item>
+    </style>
+
+    <style name="SpinnerTimePicker" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:timePickerMode">spinner</item>
+    </style>
+
+
+    <!-- Material Date picker -->
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">cut</item>
+    </style>
+
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.DatePicker" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorPrimary">@color/md_pink_100</item>
+        <item name="colorOnPrimary">@color/md_pink_900</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>
+
+    </style>
+
+
+</resources>

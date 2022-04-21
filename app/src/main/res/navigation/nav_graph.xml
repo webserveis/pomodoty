@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_pomodoro">
+
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.webserveis.app.pomodoty.preferences.SettingsActivity" />
+
+    <fragment
+        android:id="@+id/nav_pomodoro"
+        android:name="com.webserveis.app.pomodoty.ui.pomotimer.PomodoroFragment"
+        android:label="@string/list_fragment_label"
+        tools:layout="@layout/fragment_pomodoro_timer" />
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.webserveis.app.pomodoty.ui.FirstFragment"
+        android:label="FirstFragment" />
+
+
+</navigation>

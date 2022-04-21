@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Info Preferences -->
+    <string name="pref_about_header">Informazioni app</string>
+
+    <string name="action_app_info">Informazioni App</string>
+
+    <string name="pref_about_version_title">Versione</string>
+
+    <string name="pref_about_license_title">licenza e Termini di utilizzo</string>
+    <string name="pref_about_license_summary">Licenza e informativa sulla privacy</string>
+
+    <string name="pref_about_open_license_title">Licenze open source</string>
+    <string name="pref_about_open_license_summary">Visualizza le licenze open source</string>
+
+    <string name="pref_about_send_feedback_title">Spedisci il rapporto</string>
+    <string name="pref_about_send_feedback_summary">Aiutami a migliorare l\'app</string>
+
+    <string name="pref_about_send_feedback_header">Reportar con</string>
+    <string name="pref_about_send_feedback_error">È necessaria un\'app di posta elettronica per inviare rapporti</string>
+
+    <string name="pref_about_others_apps_title">Vedi altre app</string>
+    <string name="pref_about_others_apps_summary">Scopri tutte le mie applicazioni</string>
+
+    <string name="pref_about_rate_app_title">Valuta questa app</string>
+    <string name="pref_about_rate_app_summary">¡La tua opinione è importante per noi!</string><!-- Rate and comment in the play store-->
+
+    <string name="pref_about_dev_developer_label">Sviluppatore</string>
+
+    <string name="pref_about_dev_email_title">Contatta tramite e-mail</string>
+
+    <string name="pref_about_dev_twitter_summary">Seguimi su Twitter</string>
+
+    <string name="pref_about_dev_google_play_title">Pagina web di Gplay</string>
+    <string name="pref_about_dev_google_play_summary">Pagina sviluppatore su Google Play</string>
+
+    <string name="pref_about_dev_web_title">Sito web per sviluppatori</string>
+    <string name="pref_about_dev_web_summary">Visita il mio blog di sviluppo personale</string>
+
+    <string name="action_share">Condividi con</string>
+    <string name="action_share_description">Ehi, dai un\'occhiata a "%s" %s</string>
+
+</resources>
