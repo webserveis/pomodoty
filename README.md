@@ -4,7 +4,7 @@ Requisitos: https://github.com/mouredev/Monthly-App-Challenge-2022#abril-310322
 # pomodoty
 > Por trabajo y fiestas no he podido completar todos los requisitos, pero el contador de tiempo es 100% funcional
 
- 
+ El tiempo cuando se para, se puede avanzar o retroceder interectuando con el barra de progreso circular.
 ## Tech
 
  - Kotlin
