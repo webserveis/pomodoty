@@ -1,5 +1,3 @@
-# pomodoty
-
 ## Reto Pomodoro
 Requisitos: https://github.com/mouredev/Monthly-App-Challenge-2022#abril-310322
 
@@ -14,7 +12,7 @@ Requisitos:
  - Se guardará un historial agrupado por día con fecha de inicio y fin del bloque/s de trabajo junto con el texto de la tarea realizada. Tiempo total contando descanso y trabajo. Se guarda cada vez que se detiente el pomodoro. El historial puede estar en una patalla individual. Se mostará primero el registro más reciente.
  - Esta es un tipo de aplicación con la que podemos practicar diseños de UI más elaborados. Intenta hacerla bonita y con animaciones!
 
-
+# pomodoty
 > Por trabajo y fiestas no he podido completar todos los requisitos, pero el contador de tiempo es 100% funcional
 
  
@@ -22,10 +20,6 @@ Requisitos:
 
 ### Instalar APK
 apk-debug.apk que se ecuentra en la raiz del repositorio
-
-### Instalar desde tienda GPlay
-Pomodoty en Google play "la están revisando"
-https://play.google.com/store/apps/details?id=com.webserveis.app.pomodoty
 
 ## Seguimiento How to Make
 Si quieres saber como he ido realizando algunos pasos en la creación del pomodoro, dale un vistazo a mi timeline de twitter https://twitter.com/webserveis
